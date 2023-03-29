@@ -1,6 +1,10 @@
 package com.raptarior.todoreward.domain.entity;
 
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class Todo {
 
     private Long todoNo;
